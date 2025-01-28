@@ -1,4 +1,3 @@
-
 ### Запускаем приложение 
 
 ```shell
@@ -9,7 +8,7 @@ docker compose up -d
 ```shell
 ./scripts/01-mongo-config-srv-init.sh
 
-### Инициализируем шарды и реплики
+### Инициализируем шарды 
 
 ```shell
 ./scripts/02-mongo-shards-init.sh
@@ -29,16 +28,3 @@ docker compose up -d
 
 ```shell
 ./scripts/05-mongo-check-shards.sh 
-
-### Проверяем статус и количество данных в репликах
-
-```shell
-./scripts/06-mongo-check-replicas.sh 
-
-### Проверяем работу кэша
-```shell
-./scripts/07-mongo-check-cashe.sh 
-
-### Если вы запускаете проект на локальной машине
-
-http://localhost:8080

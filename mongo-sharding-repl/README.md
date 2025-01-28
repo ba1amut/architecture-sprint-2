@@ -1,4 +1,3 @@
-
 ### Запускаем приложение 
 
 ```shell
@@ -34,11 +33,3 @@ docker compose up -d
 
 ```shell
 ./scripts/06-mongo-check-replicas.sh 
-
-### Проверяем работу кэша
-```shell
-./scripts/07-mongo-check-cashe.sh 
-
-### Если вы запускаете проект на локальной машине
-
-http://localhost:8080
